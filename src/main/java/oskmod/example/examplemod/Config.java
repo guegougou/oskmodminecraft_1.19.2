@@ -13,6 +13,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/**
+ * A configuration class for the mod. This class demonstrates the use of Forge's configuration APIs.
+ * It helps keep mod configuration organized and manageable.
+ */
 // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
 // Demonstrates how to use Forge's config APIs
 @Mod.EventBusSubscriber(modid = oskmod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)

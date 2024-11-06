@@ -13,6 +13,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+/**
+ * Main class for the "oskmod" Minecraft mod.
+ * Handles important mod initialization tasks such as setting up the event bus, registering configurations,
+ * and preparing client-side events.
+ */
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(oskmod.MOD_ID)
 public class oskmod

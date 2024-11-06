@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "oskmod.example.examplemod",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExempleMixin"
+  ],
+  "client": [
+    "InventoryScreenMixin"
+  ],
+
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
